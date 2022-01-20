@@ -17,6 +17,7 @@
 
 #import "MainViewController.h"
 #import "RootViewController.h"
+#import "Sample-Swift.h"
 
 #if !FB_SONARKIT_ENABLED
 #error \
@@ -48,6 +49,8 @@
   [client addPlugin:[FlipperKitExamplePlugin sharedInstance]];
   [client addPlugin:[FlipperKitReactPlugin new]];
   [client start];
+    
+    [[ExampleSwiftFile alloc] initWithATestValue:@"Hello"];
 
   UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"MainStoryBoard"
                                                        bundle:nil];

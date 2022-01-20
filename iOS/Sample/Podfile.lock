@@ -102,7 +102,7 @@ DEPENDENCIES:
   - SocketRocket (~> 0.6.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs:
+  https://github.com/CocoaPods/Specs.git:
     - CocoaAsyncSocket
     - ComponentKit
     - Flipper-Boost-iOSX
